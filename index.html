@@ -437,10 +437,96 @@
                         </div>
                     </div>
                 </div>
+
+
+
+      
+
+
             </div>
         </div>
     </section>
 
+
+
+
+
+
+
+
+
+  <section id="experience" class="section">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="section-title">
+                <h4 class="text-uppercase text-center"><i class="title-icon fa fa-suitcase"></i>Training</h4>
+            </div>
+
+            <div id="timeline-experience">
+                <div class="timeline-block">
+                    <!-- DOT -->
+                    <div class="timeline-dot">
+                        <h6>B</h6>
+                    </div>
+                    <!-- TIMELINE CONTENT -->
+                    <div class="card timeline-content">
+                        <div class="card-content">
+                            <!-- TIMELINE TITLE -->
+                            <h6 class="timeline-title">Trainee</h6>
+                            <!-- TIMELINE TITLE INFO -->
+                            <div class="timeline-info">
+                                <h6>
+                                    <small>Bangladesh Association of Software and Information Services (BASIS)</small>
+                                </h6>
+                                <h6>
+                                    <small>January/2018 to April/2018</small>
+                                </h6>
+                            </div>
+                            <!-- TIMELINE PARAGRAPH -->
+                            <p>
+                                I came to learn detailed information about Bangladesh Association of Software and Information Services (BASIS), the national trade body for Software & IT Enabled Service industry of Bangladesh and achieved the competencies on Web Application-Dot Net. An intensive three months of initial training, they provided me with a solid foundation in Web Development technologies, Software engineering principles (SDLC) and Software development methodologies like waterfall model, scrum and agile process. I regarded each topic in the broad range of material covered in training as intrinsically interesting and essential to my work in software development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIRST TIMELINE -->
+                <div class="timeline-block">
+                    <!-- DOT -->
+                    <div class="timeline-dot">
+                        <h6>T</h6>
+                    </div>
+                    <!-- TIMELINE CONTENT -->
+                    <div class="card timeline-content">
+                        <div class="card-content">
+                            <!-- TIMELINE TITLE -->
+                            <h6 class="timeline-title">Trainee</h6>
+                            <!-- TIMELINE TITLE INFO -->
+                            <div class="timeline-info">
+                                <h6>
+                                    <small>Training of Trainers by Skill Development for Mobile Game & Application</small>
+                                </h6>
+                                <h6>
+                                    <small>July/2017 to October/2018</small>
+                                </h6>
+                            </div>
+                            <!-- TIMELINE PARAGRAPH -->
+                            <p>
+                                Completed Android course 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            
+
+
+
+      
+
+
+            </div>
+        </div>
+    </section>
     <!--==========================================
                   MODALS
 ===========================================-->
@@ -467,9 +553,7 @@
                         &#8226; A Cluster based Hybrid Framework for Network Intrusion Detection in Article in International Journal of Computer Applications 172(1):23-29 · August 2017 with 11 Reads
                         DOI: 10.5120/ijca2017915058
                     </p>
-                    
-				
-                    
+                                      
                     
                     
                 </div>
@@ -525,7 +609,7 @@
                 <!--INTEREST TEXT-->
                 <div class="card-content">
                     <p>
-                        I love to play football very much. I'm a Manchester United fan. Apart from football, I love to play games. Also doing 3D designing is another hobby of mine. Love to cook on occasions.
+                      Apart from playing cricket, I love spending time with music by playing Guitar and Ukulele. Sometimes, I also spend time in travelling to the countries I like the most and don't hesitate to make a video for that.
                     </p>
                 </div>
 
@@ -597,7 +681,12 @@
                     <!-- CONTACT FORM -->
                     <div class="card">
                         <div class="card-content">
-                            <form id="contact-form" name="c-form">
+                            <?php 
+                                if (isset($_GET["success"]) && $_GET["success"] == true && !empty($_POST["success"])) {
+                                    echo "Mail Sent";    
+                                } 
+                            ?>
+                            <form id="contact-form" method="post" action="/php/mail_handler.php" name="c-form">
                                 <!-- NAME -->
                                 <div class="input-field">
                                     <input id="first_name" type="text" class="validate" name="first_name" required>

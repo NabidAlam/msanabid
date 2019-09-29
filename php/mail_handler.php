@@ -1,5 +1,4 @@
 <?php
-
 /* Configuration */
 /*your web-mail*/
 $mailto  = 'msa.nabid.cse@gmail.com';
@@ -36,8 +35,8 @@ $message = "<html><body>$body</body></html>";
 
 if(empty($name) || empty($sub) || empty($email) || empty($comments) ){
 
-    echo "Fill The Form Properly"; // message
-    header("Location: http://home-page-link"); //go to home page
+    
+    header("Location: https://msanabid.000webhostapp.com/"); //go to home page
     die();
     
 }
@@ -45,9 +44,8 @@ if(empty($name) || empty($sub) || empty($email) || empty($comments) ){
 else {
 
     if (mail($mailto, $subject, $message, $headers)) {
-        echo "$success"; // success
+        header("Location: https://msanabid.000webhostapp.com?success=true");
     } else {
         echo "$error"; // failure
     }
 }
-
