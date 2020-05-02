@@ -36,7 +36,7 @@ $message = "<html><body>$body</body></html>";
 if(empty($name) || empty($sub) || empty($email) || empty($comments) ){
 
     
-    header("Location: https://msanabid.000webhostapp.com/"); //go to home page
+    header("Location: https://nabidalam.github.io/"); //go to home page
     die();
     
 }
@@ -44,7 +44,7 @@ if(empty($name) || empty($sub) || empty($email) || empty($comments) ){
 else {
 
     if (mail($mailto, $subject, $message, $headers)) {
-        header("Location: https://msanabid.000webhostapp.com?success=true");
+        header("Location: https://nabidalam.github.io?success=true");
     } else {
         echo "$error"; // failure
     }
