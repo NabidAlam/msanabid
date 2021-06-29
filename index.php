@@ -171,7 +171,7 @@
                           <span class="title"
                             ><i class="material-icons">email</i></span
                           >
-                          <span class="content">msa.nabid.cse@gmail.com</span>
+                          <span class="content">nabid.aust37@gmail.com</span>
                         </li>
                         <!--<li class="clearfix">
                                                 <span class="title"><i class="material-icons">language</i></span>
@@ -188,13 +188,13 @@
                           <span class="title"
                             ><i class="material-icons">phone</i></span
                           >
-                          <span class="content">+880 1912 09 41 76</span>
+                          <span class="content">(+49) 17642785228</span>
                         </li>
                         <li class="clearfix">
                           <span class="title"
                             ><i class="material-icons">place</i></span
                           >
-                          <span class="content">Eskaton Garden</span>
+                          <span class="content">Dortmund, Germany</span>
                         </li>
                       </ul>
                     </div>
@@ -256,7 +256,7 @@
                   Bangladesh. Look at some of my projects. Need assistance with
                   an upcoming application or project? Learn about me a little
                   bit more and think about employing me. I enjoy writing
-                  software to assist companies to achieve their objectives and
+                  code to assist companies to achieve their objectives and
                   create excellent products. I appreciate good design and I am
                   seeing it’s importance more than ever in today’s apps,
                   websites and products. I am an aspiring entrepreneur who
@@ -385,6 +385,38 @@
               </div>
             </div>
           </div>
+          
+          
+          
+          
+            <!-- FOURTH TIMELINE -->
+          <div class="timeline-block">
+            <!-- DOT -->
+            <div class="timeline-dot"><i class="fa fa-graduation-cap"></i></div>
+            <!-- TIMELINE CONTENT -->
+            <div class="card timeline-content">
+              <div class="card-content">
+                <!-- TIMELINE TITLE -->
+                <h6 class="timeline-title">Master of Science</h6>
+                <!-- TIMELINE TITLE INFO -->
+                <div class="timeline-info">
+                  <h6>
+                    <small>Technical University of Dortmund</small>
+                  </h6>
+                  <h6>
+                    <small>Apr 2020 - continuing</small>
+                  </h6>
+                </div>
+                <!-- TIMELINE PARAGRAPH -->
+                <p>
+                  I am pursuing Master of Science in Data Science.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          
+          
         </div>
       </div>
     </section>
